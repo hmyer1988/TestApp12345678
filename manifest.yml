@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: TestApp12345678
+  host: TestApp12345678
+  disk_quota: 1024M
+  services:
+  - TestApp12345678-cloudantNoSQLDB
+  - TestApp12345678-iotf-service
+  - Text to Speech-5y
